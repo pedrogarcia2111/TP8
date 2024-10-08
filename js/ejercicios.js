@@ -45,4 +45,17 @@ function DobleNumero() {
 DobleNumero();
 */
 
-/*6*/
+/*7*/
+
+/*8*/
+// Ejercicio 8: Reemplazar Palabras
+function reemplazarPalabra() {
+    const cadena = prompt("Ingresa una cadena de texto:");
+    const palabraOriginal = prompt("Ingresa la palabra a reemplazar:");
+    const palabraReemplazo = prompt("Ingresa la palabra de reemplazo:");
+    const resultado = reemplazarEnCadena(cadena, palabraOriginal, palabraReemplazo);
+    document.getElementById('resultado').innerHTML = resultado;
+}
+
+// Ejecutar la función al hacer clic en un botón
+document.getElementById('btnReemplazar').onclick = reemplazarPalabra;

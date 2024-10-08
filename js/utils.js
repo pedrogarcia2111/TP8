@@ -69,12 +69,33 @@ function Dobledeelementos(array) {
 
 
 /*6*/
+/*
 function dibujarTriangulo(numFilas) {
     for (let i = 0; i < numFilas; i++) {
-        let espacios = ' '.repeat(numFilas - i - 1);
-        let asteriscos = '*'.repeat(2 * i + 1);
-        console.log(espacios + asteriscos);
+        let espacios = ' '.repeat(numFilas - i - 1)
+        let asteriscos = '*'.repeat(2 * i + 1)
+        const guiones = '-'.repeat(numFilas - i - 1)
+
+        console.log(guiones + asteriscos + guiones)
     }
 }
 
 dibujarTriangulo(5);
+
+
+
+function dibujarTrianguloGuiones(numFilas) {
+    for (let i = 0; i < numFilas; i++) {
+        let espacios = ' '.repeat(numFilas - i - 1)
+        let asteriscos = '*'.repeat(2 * i + 1)
+
+        console.log(espacios + asteriscos + espacios)
+    }
+}
+
+dibujarTrianguloGuiones(5);
+*/
+
+/*7*/
+
+/*8*/
